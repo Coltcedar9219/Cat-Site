@@ -12,6 +12,9 @@ img {
 .relative-wrapper {
 	position: relative;
 }
+.text-center{
+	text-align: center;
+}
 .overlay {
 	position: absolute;
 	width: 100%;
