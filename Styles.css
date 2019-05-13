@@ -60,7 +60,7 @@ a.active {
 	margin: 20px auto;
 	width: 90%;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 
 }
 .gallery .image {
