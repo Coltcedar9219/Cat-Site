@@ -65,7 +65,13 @@ a.active {
 
 }
 .gallery .image {
-	width: 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	height:350px;
+	margin: 0.5em;
+	width: calc(100% / 3 - 1em)
 }
 .gallery .image > img {
 	width: 100%;
