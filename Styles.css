@@ -69,10 +69,15 @@ a.active {
 	background-repeat: no-repeat;
 	background-size: cover;
 	cursor: pointer;
+	transition: transform 0.35s;
 	height:350px;
 	margin: 0.5em;
 	width: calc(100% / 3 - 1em)
 }
+.gallery .image:hover{
+	transform: scale(1.05)
+}
+
 .gallery .image > img {
 	width: 100%;
 }
