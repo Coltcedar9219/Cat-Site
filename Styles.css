@@ -84,7 +84,7 @@ a.active {
 	.gallery .image {
 		width: 100%;
 		margin: .5em 0;
-
+	}}
 .gallery .image:hover{
 	transform: scale(1.05)
 }
