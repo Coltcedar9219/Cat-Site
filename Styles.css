@@ -74,6 +74,17 @@ a.active {
 	margin: 0.5em;
 	width: calc(100% / 3 - 1em)
 }
+
+@media screen and (max-width: 1024px){
+.gallery .image {
+	width: calc(100% / 2 - 1em);
+}
+}
+@media screen and (max-width: 500px){
+	.gallery .image {
+		width: 100%;
+		margin: .5em 0;
+
 .gallery .image:hover{
 	transform: scale(1.05)
 }
