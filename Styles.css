@@ -7,7 +7,7 @@ body {
 } 
 
 img {
-		display: block;
+	display: block;
 }
 .relative-wrapper {
 	position: relative;
@@ -27,7 +27,7 @@ img {
 
 .banner {
 	width:100%;
-		align-content: center;
+	align-content: center;
 }
 .banner img {
 	
@@ -62,7 +62,7 @@ a.active {
 	width: 90%;
 	align-items: center;
 	justify-content: space-around;
-
+	
 }
 .gallery .image {
 	background-position: center;
@@ -76,15 +76,18 @@ a.active {
 }
 
 @media screen and (max-width: 1024px){
-.gallery .image {
-	width: calc(100% / 2 - 1em);
+	.gallery .image {
+		width: calc(100% / 2 - 1em);
+	}
 }
-}
+
 @media screen and (max-width: 500px){
 	.gallery .image {
 		width: 100%;
 		margin: .5em 0;
-	}}
+	}
+}
+
 .gallery .image:hover{
 	transform: scale(1.05)
 }
